@@ -16,13 +16,19 @@ body {
 }
 
 .div_nav {
-    margin-right: 3%;
+    padding-left: 4%;
 }
 
+svg {
+    overflow: hidden;
+    margin-left: .5rem;
+}
+
+
+}
 div {
     display: block;
 }
-
 .start-flex {
     justify-content: flex-start;
     box-sizing: inherit;
@@ -30,16 +36,14 @@ div {
     width: 15%;
     visibility: visible;
 }
-
 .center-flex {
-    justify-content: center;
+    text-align: right;
     font-size: 14px;
     box-sizing: inherit;
     margin: auto!important;
     width: 70%;
     visibility: visible;
 }
-
 .end-flex {
     justify-content: flex-end;
     box-sizing: inherit;
@@ -48,7 +52,6 @@ div {
     width: 15%;
     visibility: visible;
 }
-
 .btn_title {
     border-radius: 6px;
     background-color: #e7e6e6;
@@ -57,23 +60,23 @@ div {
     width: 80px;
     text-align: center;
 }
-
 .input_search {
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
 }
-
 a {
-    color: Black;
+    color: #464d68;
     text-decoration: none;
 }
-
+.a_nav {
+    color: rgb(32, 84, 228);
+    font-weight: bold;
+}
 .center-flex,
 a:hover {
     color: orange;
 }
-
 .search {
     margin: auto;
     margin-top: 2%;
@@ -89,14 +92,12 @@ a:hover {
     background-attachment: fixed;
     text-align: center;
 }
-
 .search-title {
     color: white;
     font-size: 2.75rem;
     margin-left: auto;
     margin-left: auto;
 }
-
 .select-search {
     margin-right: -20px;
     justify-content: flex-center;
@@ -112,7 +113,6 @@ a:hover {
     margin-top: 0.75vw;
     font-family: 'font1';
 }
-
 .main-search-box {
     justify-content: flex-start;
     flex-grow: 2;
@@ -126,7 +126,6 @@ a:hover {
     border-radius: 10px;
     font-family: 'font1';
 }
-
 .search-button {
     justify-content: flex-end;
     margin-right: -20px;
@@ -145,17 +144,14 @@ a:hover {
     z-index: 2;
     font-family: 'font1';
 }
-
 .search-button:hover {
     background-color: #ff5233;
     transition: 0.5s;
 }
-
 ::placeholder {
     color: #dedede;
 }
-
 @font-face {
     font-family: 'font1';
-    src: url('./fonts/Vazir-Black.eot'), url('./fonts/Vazir-Black.woff'), url('./fonts/Vazir-Black.ttf');
+    src: url('./fonts/38d4b5f.woff2'), url('./fonts/a5080d9.ttf'), url('./fonts/d4bb655.woff');
 }
