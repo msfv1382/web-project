@@ -4,7 +4,8 @@ body {
 }
 
 .container {
-    max-width: 1320px;
+    margin-top: 0.5%;
+    max-width: 1160px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 5%;
@@ -13,6 +14,14 @@ body {
 
 .dis_flex {
     display: flex;
+}
+
+.icon_menu {
+    display: none;
+}
+
+.icon_search {
+    display: none;
 }
 
 .div_nav {
@@ -24,11 +33,14 @@ svg {
     margin-left: .5rem;
 }
 
-
-}
 div {
     display: block;
 }
+
+header {
+    max-width: 100%;
+}
+
 .start-flex {
     justify-content: flex-start;
     box-sizing: inherit;
@@ -36,6 +48,7 @@ div {
     width: 15%;
     visibility: visible;
 }
+
 .center-flex {
     text-align: right;
     font-size: 14px;
@@ -44,6 +57,7 @@ div {
     width: 70%;
     visibility: visible;
 }
+
 .end-flex {
     justify-content: flex-end;
     box-sizing: inherit;
@@ -52,6 +66,7 @@ div {
     width: 15%;
     visibility: visible;
 }
+
 .btn_title {
     border-radius: 6px;
     background-color: #e7e6e6;
@@ -60,23 +75,28 @@ div {
     width: 80px;
     text-align: center;
 }
+
 .input_search {
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
 }
+
 a {
-    color: #464d68;
+    color: #41475f;
     text-decoration: none;
 }
+
 .a_nav {
     color: rgb(32, 84, 228);
     font-weight: bold;
 }
+
 .center-flex,
 a:hover {
     color: orange;
 }
+
 .search {
     margin: auto;
     margin-top: 2%;
@@ -92,12 +112,14 @@ a:hover {
     background-attachment: fixed;
     text-align: center;
 }
+
 .search-title {
     color: white;
     font-size: 2.75rem;
     margin-left: auto;
     margin-left: auto;
 }
+
 .select-search {
     margin-right: -20px;
     justify-content: flex-center;
@@ -112,7 +134,9 @@ a:hover {
     padding: 1.05rem;
     margin-top: 0.75vw;
     font-family: 'font1';
+    outline: none;
 }
+
 .main-search-box {
     justify-content: flex-start;
     flex-grow: 2;
@@ -125,7 +149,9 @@ a:hover {
     z-index: 5;
     border-radius: 10px;
     font-family: 'font1';
+    outline: none;
 }
+
 .search-button {
     justify-content: flex-end;
     margin-right: -20px;
@@ -143,14 +169,35 @@ a:hover {
     cursor: pointer;
     z-index: 2;
     font-family: 'font1';
+    outline: none;
 }
+
 .search-button:hover {
     background-color: #ff5233;
     transition: 0.5s;
 }
+
 ::placeholder {
     color: #dedede;
 }
+
+.title_small_box {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.start-title {
+    color: #41475f;
+    font-weight: bold;
+    justify-content: flex-start;
+    flex-grow: 2;
+}
+
+.end-title {
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
 @font-face {
     font-family: 'font1';
     src: url('./fonts/38d4b5f.woff2'), url('./fonts/a5080d9.ttf'), url('./fonts/d4bb655.woff');

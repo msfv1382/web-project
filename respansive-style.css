@@ -1,7 +1,9 @@
-@media only screen and (max-width: 600px) {
-    .start-flex {
-        justify-content: center;
-        flex-grow: 1;
+@media only screen and (max-width: 1000px) {
+    .container {
+        margin-top: 3%;
+    }
+    body {
+        direction: rtl;
     }
     .center-flex {
         display: none;
@@ -21,23 +23,64 @@
     .select-search {
         display: none;
     }
-    @media (min-width: 1200px) {
-        .container {
-            max-width: 1140px;
+    .search-title {
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-left: auto;
+    }
+    .title_small_box {
+        font-size: 12px;
+        margin-top: 5%;
+        width: 100%;
+    }
+    .input_search {
+        margin-top: 8%;
+    }
+    .icon_menu {
+        display: flex;
+        justify-content: flex-start !important;
+        align-items: flex-start;
+        margin: auto!important;
+        width: 15%;
+        visibility: visible;
+    }
+    .start-flex {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+        margin: auto!important;
+        visibility: visible;
+    }
+    .icon_search {
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: flex-end;
+        width: 15%;
+        margin: auto!important;
+        visibility: visible;
+    }
+    @media only screen and (min-width: 900px) {
+        .main-search-box {
+            width: 500px;
+        }
+        .select-search {
+            display: inline-block;
+        }
+        .search-title {
+            font-size: 2.5rem;
         }
     }
-    @media (min-width: 992px) {
-        .container {
-            max-width: 960px;
+    @media only screen and (min-width: 700px) {
+        .main-search-box {
+            width: 400px;
         }
-    }
-    @media (min-width: 768px) {
-        .container {
-            max-width: 720px;
+        .select-search {
+            display: inline-block;
         }
-        .search {
-            padding-top: 3rem!important;
-            padding-bottom: 3rem!important;
+        .search-title {
+            font-size: 2rem;
         }
     }
 }
