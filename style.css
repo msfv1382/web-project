@@ -199,6 +199,7 @@ a:hover {
 }
 
 .small_box_1 {
+    overflow: hidden;
     margin-top: 3%;
     display: flex;
 }
