@@ -101,21 +101,21 @@ a:hover {
     margin: auto;
     margin-top: 2%;
     border-radius: 12px;
-    padding-top: 4rem;
+    padding-top: 2.5rem;
     padding-bottom: 4rem;
     padding-left: 1rem;
     padding-right: 1rem;
     position: relative;
     background-image: url('./icons/download.png');
     background-color: #1780df;
-    background-size: cover;
-    background-attachment: fixed;
     text-align: center;
 }
 
 .search-title {
     color: white;
-    font-size: 2.75rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 3%;
     margin-left: auto;
     margin-left: auto;
 }
@@ -140,7 +140,7 @@ a:hover {
 .main-search-box {
     justify-content: flex-start;
     flex-grow: 2;
-    width: 600px;
+    width: 400px;
     box-shadow: none;
     border: 1px solid white!important;
     font-size: 15px;
@@ -214,6 +214,12 @@ a:hover {
     border: 1px solid rgb(219, 195, 195)
 }
 
+.text_box {
+    color: #41475f;
+    font-size: 13px;
+    font-weight: bold;
+}
+
 .box:hover {
     box-shadow: black;
     transition: 0.5s;
@@ -221,6 +227,7 @@ a:hover {
 
 .img_div {
     width: 90%;
+    height: 60%;
     border-radius: 5px;
     margin-right: auto;
     margin-left: auto;
