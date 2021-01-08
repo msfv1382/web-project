@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     font-family: 'font1';
+    background: #fafafa;
 }
 
 .container {
@@ -94,20 +95,21 @@ a {
 
 .center-flex,
 a:hover {
-    color: orange;
+    color: #fb815e;
 }
 
 .search {
     margin: auto;
     margin-top: 2%;
     border-radius: 12px;
-    padding-top: 2.5rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
     position: relative;
     background-image: url('./icons/download.png');
     background-color: #1780df;
+    background-size: cover;
     text-align: center;
 }
 
@@ -161,19 +163,19 @@ a:hover {
     color: white;
     padding: 1.05rem;
     margin-top: 0.75vw;
-    background-color: tomato;
-    border: 1px solid tomato!important;
+    background-color: #fb815e;
+    border: 1px solid transparent!important;
     border-color: transparent;
     border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
     z-index: 2;
     font-family: 'font1';
-    outline: none;
+    outline: transparent;
 }
 
 .search-button:hover {
-    background-color: #ff5233;
+    background-color: #fa5a2c;
     transition: 0.5s;
 }
 
@@ -234,6 +236,121 @@ a:hover {
     padding-top: 10%;
     padding-bottom: 5%;
     margin-bottom: 8%;
+}
+
+.advertise_box {
+    position: relative;
+    height: 70vw;
+    background: white;
+}
+
+.advertise_box h3 {
+    position: relative;
+    top: 50px;
+    color: #3b4157;
+    font-size: 20px;
+    padding-top: 10vw;
+    padding-right: 1vw;
+}
+
+.advertise_box p {
+    position: relative;
+    top: 50px;
+    display: block;
+    color: #6e7794;
+    font-size: 15px;
+    max-width: 400px;
+    padding-right: 1vw;
+}
+
+.comment_box {
+    position: relative;
+    float: left;
+    bottom: 15vw;
+    border: 1px solid #1780df;
+    background-color: #e5f2fe;
+    border-radius: 20px;
+    width: 50%;
+    height: 370px;
+    color: #6e7794;
+}
+
+.comment_box p,
+p2 {
+    position: relative;
+    font-size: 17px;
+    color: #3b4157;
+    top: 1vw;
+    right: 0.5vw;
+}
+
+.comment_box p2 {
+    font-size: 34px;
+    top: 13.75vw;
+    color: #6e7794;
+}
+
+.doctor_info {
+    padding-top: 11vw;
+    margin-right: 2vw;
+}
+
+.doctor_info_image {
+    margin-top: 1.5vw;
+    margin-left: 0;
+    border-radius: 50%;
+    width: 77px;
+    height: 77px;
+}
+
+.doctor_info h6 {
+    color: #3b4157;
+    float: left;
+    padding-left: 25vw;
+    font-size: 15px;
+}
+
+.doctor_info h7 {
+    position: relative;
+    font-size: 14.75px;
+    bottom: 3.65vw;
+    right: 6.50vw;
+}
+
+.doctor_info_input {
+    font-family: 'font1';
+    font-size: 14.5px;
+    position: relative;
+    bottom: 4.5vw;
+    height: 36px;
+    width: 150px;
+    text-align: center;
+    right: 12.5vw;
+    color: white;
+    background-color: #fb815e;
+    border: 1px solid transparent!important;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: transparent;
+}
+
+.doctor_info_input:hover {
+    background-color: #fa5a2c;
+    transition: 0.5s;
+}
+
+.comma_image {
+    position: absolute;
+    bottom: 25.5vw;
+    right: 3vw;
+    width: 50px;
+}
+
+.person_comment {
+    position: relative;
+    bottom: 40vw;
+    right: 75vw;
+    color: #3b4157;
 }
 
 @font-face {
