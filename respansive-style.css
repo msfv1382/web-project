@@ -76,6 +76,59 @@
     .text_box {
         font-size: 6px;
     }
+    .sticky {
+        width: 90%;
+    }
+    .mton {
+        display: block;
+        margin-top: 4%;
+    }
+    .advertise_box {
+        width: 100%;
+    }
+    .comment {
+        width: 100%;
+    }
+    .person_comment {
+        margin-top: 8%;
+        margin-right: 2%;
+        font-size: 13px;
+        color: #3b4157;
+    }
+    .p1_info {
+        font-size: 13.5px;
+    }
+    .p2_info {
+        font-size: 13px;
+    }
+    .doctor_info_input {
+        width: 80;
+        margin-top: 1.5%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 13px;
+        padding: 3% 18% 3% 18%;
+    }
+    .doctor_info {
+        display: block !important;
+    }
+    .div1_info {
+        text-align: center;
+        width: 100%;
+    }
+    .div2_info {
+        text-align: center;
+        width: 100%;
+    }
+    .div3_info {
+        text-align: center;
+        width: 100%;
+    }
+    .doctor_info_image {
+        margin-right: auto;
+        margin-left: auto;
+        width: 30%;
+    }
     @media only screen and (min-width: 900px) {
         .text_box {
             font-size: 12px;
@@ -89,6 +142,9 @@
         .search-title {
             margin-bottom: 0px;
             font-size: 2.5rem;
+        }
+        .sticky {
+            width: 90%;
         }
     }
     @media only screen and (min-width: 700px) {
@@ -104,6 +160,9 @@
         .search-title {
             margin-bottom: 0px;
             font-size: 2rem;
+        }
+        .sticky {
+            width: 90%;
         }
     }
 }
