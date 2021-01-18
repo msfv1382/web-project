@@ -331,7 +331,6 @@ p2 {
     border: 1px solid transparent!important;
     border-radius: 10px;
     cursor: pointer;
-    outline: transparent;
 }
 
 .doctor_info_input:hover {
