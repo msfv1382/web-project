@@ -38,8 +38,19 @@ div {
     display: block;
 }
 
-header {
+.header {
     max-width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: #fafafa;
+    z-index: 20;
 }
 
 .start-flex {
@@ -238,94 +249,89 @@ a:hover {
     margin-bottom: 8%;
 }
 
+.mton {
+    display: flex;
+    margin-top: 4%;
+}
+
 .advertise_box {
-    position: relative;
-    height: 70vw;
-    background: white;
-}
-
-.advertise_box h3 {
-    position: relative;
-    top: 50px;
-    color: #3b4157;
-    font-size: 20px;
-    padding-top: 10vw;
-    padding-right: 1vw;
-}
-
-.advertise_box p {
-    position: relative;
-    top: 50px;
-    display: block;
+    margin-top: 7%;
     color: #6e7794;
     font-size: 15px;
-    max-width: 400px;
-    padding-right: 1vw;
+    width: 35%;
+    margin-left: 20%;
+    padding: 1%;
+}
+
+.advertise_box_1 {
+    text-align: justify;
+    display: block !important;
+}
+
+.comment {
+    width: 45%;
 }
 
 .comment_box {
-    position: relative;
-    float: left;
-    bottom: 15vw;
+    margin-bottom: 7%;
     border: 1px solid #1780df;
     background-color: #e5f2fe;
     border-radius: 20px;
-    width: 50%;
-    height: 370px;
-    color: #6e7794;
-}
-
-.comment_box p,
-p2 {
-    position: relative;
-    font-size: 17px;
-    color: #3b4157;
-    top: 1vw;
-    right: 0.5vw;
-}
-
-.comment_box p2 {
-    font-size: 34px;
-    top: 13.75vw;
+    z-index: 5 !important;
     color: #6e7794;
 }
 
 .doctor_info {
-    padding-top: 11vw;
-    margin-right: 2vw;
+    padding-top: 3%;
+    margin-top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    border-top: 2.5px dashed #3b4157;
+    width: 98%;
+    z-index: 9 !important;
 }
 
 .doctor_info_image {
-    margin-top: 1.5vw;
-    margin-left: 0;
+    margin-right: 4%;
     border-radius: 50%;
-    width: 77px;
-    height: 77px;
+    width: 80%;
+    height: 100%;
 }
 
-.doctor_info h6 {
-    color: #3b4157;
-    float: left;
-    padding-left: 25vw;
-    font-size: 15px;
+.div1_info {
+    width: 20%;
 }
 
-.doctor_info h7 {
-    position: relative;
-    font-size: 14.75px;
-    bottom: 3.65vw;
-    right: 6.50vw;
+.div2_info {
+    justify-content: right;
+    width: 50%;
+}
+
+.div3_info {
+    width: 30%;
+}
+
+.p1_info {
+    font-size: 14.5px;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+    display: block !important;
+}
+
+.p2_info {
+    font-size: 14.5px;
+    margin-top: 0px !important;
+    display: block !important;
 }
 
 .doctor_info_input {
+    display: block !important;
+    margin-top: 17%;
     font-family: 'font1';
-    font-size: 14.5px;
-    position: relative;
-    bottom: 4.5vw;
-    height: 36px;
-    width: 150px;
+    font-size: 14px;
+    padding: 4%;
     text-align: center;
-    right: 12.5vw;
     color: white;
     background-color: #fb815e;
     border: 1px solid transparent!important;
@@ -339,16 +345,16 @@ p2 {
 }
 
 .comma_image {
-    position: absolute;
-    bottom: 25.5vw;
-    right: 3vw;
+    z-index: 10%;
+    margin-bottom: -31px;
+    margin-right: 30px;
     width: 50px;
 }
 
 .person_comment {
-    position: relative;
-    bottom: 40vw;
-    right: 75vw;
+    margin-top: 7%;
+    margin-right: 2%;
+    font-size: 15.5px;
     color: #3b4157;
 }
 
