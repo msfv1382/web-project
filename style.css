@@ -29,6 +29,11 @@ body {
     padding-left: 4%;
 }
 
+.div_nav>a {
+    display: flex !important;
+    align-items: center !important;
+}
+
 svg {
     overflow: hidden;
     margin-left: .5rem;
@@ -84,8 +89,21 @@ div {
     background-color: #e7e6e6;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
     width: 80px;
     text-align: center;
+}
+
+.btn_title>a {
+    display: flex;
+    color: #1780df;
+    margin-right: 10px;
+}
+
+.enter_svg {
+    transform: scaleX(-1);
+    margin-right: 5px;
 }
 
 .input_search {
@@ -100,8 +118,13 @@ a {
 }
 
 .a_nav {
-    color: rgb(32, 84, 228);
+    display: flex;
+    color: #1780df;
     font-weight: bold;
+}
+
+.a_nav:hover {
+    color: #fa5a2c;
 }
 
 .center-flex,
@@ -337,6 +360,7 @@ a:hover {
     border: 1px solid transparent!important;
     border-radius: 10px;
     cursor: pointer;
+    outline: transparent;
 }
 
 .doctor_info_input:hover {
